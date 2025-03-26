@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil A</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            background: rgb(11,7,105);
+            background: linear-gradient(0deg, rgba(11,7,105,1) 0%, rgba(68,101,215,0.6853335084033614) 20%, rgba(255,255,255,0.4192270658263305) 100%);
+        }
+        img {
+            border-radius: 5%;
+        }
+        .My-footer {
+            color: white; /* Make sure footer text color is white */
+            background: rgb(11,7,105); /* Match the body background */
+        }
+
+        /* Override text-body-secondary color inside the footer */
+        #force_white {
+            color: white !important;
+        }
+
+        .My-footer a {
+            color: white !important; /* Ensure links in the footer are also white */
+        }
+
+        .My-footer p {
+            color: white !important; /* Ensure paragraph text inside footer is white */
+        }
+
+        /* To fix potential overriding styles in navigation links */
+        .nav-link {
+            color: white !important; 
+        }
+
+        h1{
+            font-size: 4em;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Intro page -->
+    <div id="Intro_Page">
+        <div class="container col-xxl-12 px-4 pt-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+                <div class="col-10 col-sm-8 col-lg-6" id="me">
+                    <img src="picture.jpg" class="d-block mx-lg-auto img-fluid" alt="a picture of me" width="1200" height="100vh" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="fw-bold text-body-emphasis lh-2 mb-5">Hi! I'm <span style="color: blue; font-size: 4em;">Neil</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Me -->
+     <div class="About me">
+        <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+                <img src="./tv-service-center.jpg" alt="tv service center" width="300" height="300" class="mb-3">
+                <h2 class="text-body-emphasis mb-5">A few things about me</h2>
+                <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    In college, I pursued Electrical Engineering Technology, which, if you’re not familiar, sits somewhere between being a trade electrician and an engineer. As the saying goes, it’s the more budget-friendly alternative to engineering. However, my curiosity for technology didn’t begin in college—it started much earlier. I vividly remember spending time at the TV service center where my father worked, surrounded by exposed picture tubes and circuits. That experience completely reshaped the way I view the world.
+                </p>
+            </div>
+        </div>
+    </div>
+     <!-- Future Projects -->
+     <div class="Future Projects">
+        <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+                <img src="./UMC100.webp" alt="Future Projects" width="300" height="300" class="mb-3">
+                <h2 class="text-body-emphasis mb-5">Future Projects</h2>
+                <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    In my spare time, I often find myself contemplating the untapped potential of technology, much like how television once revolutionized entertainment by solving the problem of boredom. Currently, I’m diving into the motor controller UMC100, paired with a VFD, with the goal of remotely controlling them via a webpage.
+            </div>
+        </div>
+    </div>
+    <!-- Other Interest-->
+    <div class="Other Interest">
+        <div class="container my-5">
+            <div class="p-5 text-center bg-body-tertiary rounded-3">
+                <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+                <h2 class="text-body-emphasis mb-5">Let's keep in touch!</h2>
+                <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    I'll be continuing to develop this page and will be sharing updates on future projects here
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="My-footer" id="force_white">
+        <div class="container text-white">
+            <footer class="py-3 my-4 text-white rounded-3">
+                <p class="text-center">© 2025 Neil, Inc</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
